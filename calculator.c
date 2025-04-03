@@ -27,7 +27,7 @@ void calculate_hexadecimal() {
     int num1, num2, result;
     char operator;
 
-    printf("Enter a hexadecimal expression: ");
+    printf("Enter a hexadecimal expression (e.g., A + B): ");
     scanf("%x %c %x", &num1, &operator, &num2);
 
     switch (operator) {
@@ -57,7 +57,7 @@ int main() {
     if (choice == 1) {
         double num1, num2;
         char operator;
-        printf("Enter a decimal expression: ");
+        printf("Enter a decimal expression (e.g., 2 + 3): ");
         scanf("%lf %c %lf", &num1, &operator, &num2);
         calculate_decimal(num1, operator, num2);
     } else if (choice == 2) {
